@@ -1,0 +1,441 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{601394B5-8B5C-44D4-BEFD-ADF5EDE32500}|Service\\MyProject.Service.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\service\\hourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601394B5-8B5C-44D4-BEFD-ADF5EDE32500}|Service\\MyProject.Service.csproj|solutionrelative:service\\hourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\myproject\\controllers\\hourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|solutionrelative:myproject\\controllers\\hourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\core\\dtos\\hourdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|solutionrelative:core\\dtos\\hourdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\core\\entities\\hour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|solutionrelative:core\\entities\\hour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\core\\interface\\ihourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|solutionrelative:core\\interface\\ihourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\myproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|solutionrelative:myproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\myproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|solutionrelative:myproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\myproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|solutionrelative:myproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\myproject\\myproject.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|solutionrelative:myproject\\myproject.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\myproject\\middleware\\logginmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|solutionrelative:myproject\\middleware\\logginmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\myproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|solutionrelative:myproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601394B5-8B5C-44D4-BEFD-ADF5EDE32500}|Service\\MyProject.Service.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601394B5-8B5C-44D4-BEFD-ADF5EDE32500}|Service\\MyProject.Service.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\myproject\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|solutionrelative:myproject\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|solutionrelative:core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\core\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|solutionrelative:core\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601394B5-8B5C-44D4-BEFD-ADF5EDE32500}|Service\\MyProject.Service.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\service\\myproject.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{601394B5-8B5C-44D4-BEFD-ADF5EDE32500}|Service\\MyProject.Service.csproj|solutionrelative:service\\myproject.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\myproject\\myproject.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|solutionrelative:myproject\\myproject.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\myproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|solutionrelative:myproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\myproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|solutionrelative:myproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\core\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|solutionrelative:core\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571ABD02-DF45-4B3C-A534-509156EE2932}|Data\\MyProject.Data.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571ABD02-DF45-4B3C-A534-509156EE2932}|Data\\MyProject.Data.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\myproject\\myproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{CC5BFF3A-9B7A-4B25-A96E-2636F732D8BF}|MyProject\\MyProject.Api.csproj|solutionrelative:myproject\\myproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\core\\myproject.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|solutionrelative:core\\myproject.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\core\\dtos\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E61A033-D409-4E16-B05E-10DD6D8CCFF9}|Core\\MyProject.Core.csproj|solutionrelative:core\\dtos\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571ABD02-DF45-4B3C-A534-509156EE2932}|Data\\MyProject.Data.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\data\\myproject.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{571ABD02-DF45-4B3C-A534-509156EE2932}|Data\\MyProject.Data.csproj|solutionrelative:data\\myproject.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571ABD02-DF45-4B3C-A534-509156EE2932}|Data\\MyProject.Data.csproj|w:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.net\\myproject\\data\\migrations\\20250507122953_sample_tring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571ABD02-DF45-4B3C-A534-509156EE2932}|Data\\MyProject.Data.csproj|solutionrelative:data\\migrations\\20250507122953_sample_tring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MyProject\\Controllers\\AuthController.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MyProject\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T14:36:43.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "MyProject\\appsettings.Production.json",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\appsettings.Production.json",
+              "RelativeToolTip": "MyProject\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-29T17:25:05.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\entities\\User.cs",
+              "RelativeDocumentMoniker": "Core\\entities\\User.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\entities\\User.cs",
+              "RelativeToolTip": "Core\\entities\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:27:51.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hour.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\entities\\Hour.cs",
+              "RelativeDocumentMoniker": "Core\\entities\\Hour.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\entities\\Hour.cs",
+              "RelativeToolTip": "Core\\entities\\Hour.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:32:32.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MyProject\\Controllers\\UserController.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MyProject\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAwwDsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T14:10:28.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HourService.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Service\\HourService.cs",
+              "RelativeDocumentMoniker": "Service\\HourService.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Service\\HourService.cs",
+              "RelativeToolTip": "Service\\HourService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwD4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T13:46:31.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\UserService.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Service\\UserService.cs",
+              "RelativeToolTip": "Service\\UserService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:48:04.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HourController.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\Controllers\\HourController.cs",
+              "RelativeDocumentMoniker": "MyProject\\Controllers\\HourController.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\Controllers\\HourController.cs",
+              "RelativeToolTip": "MyProject\\Controllers\\HourController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T14:10:06.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyProject.Api",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\MyProject.Api.csproj",
+              "RelativeDocumentMoniker": "MyProject\\MyProject.Api.csproj",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\MyProject.Api.csproj",
+              "RelativeToolTip": "MyProject\\MyProject.Api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-07T12:58:24.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HourDTO.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\DTOs\\HourDTO.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\HourDTO.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\DTOs\\HourDTO.cs",
+              "RelativeToolTip": "Core\\DTOs\\HourDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:55:22.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IHourService.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\Interface\\IHourService.cs",
+              "RelativeDocumentMoniker": "Core\\Interface\\IHourService.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\Interface\\IHourService.cs",
+              "RelativeToolTip": "Core\\Interface\\IHourService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:49:46.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LogginMiddleWare.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\MiddleWare\\LogginMiddleWare.cs",
+              "RelativeDocumentMoniker": "MyProject\\MiddleWare\\LogginMiddleWare.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\MiddleWare\\LogginMiddleWare.cs",
+              "RelativeToolTip": "MyProject\\MiddleWare\\LogginMiddleWare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T13:09:40.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\appsettings.json",
+              "RelativeDocumentMoniker": "MyProject\\appsettings.json",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\appsettings.json",
+              "RelativeToolTip": "MyProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-29T17:27:27.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\Program.cs",
+              "RelativeDocumentMoniker": "MyProject\\Program.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\Program.cs",
+              "RelativeToolTip": "MyProject\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAswE8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:13:32.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MyProject.Api.csproj",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\MyProject.Api.csproj",
+              "RelativeDocumentMoniker": "MyProject\\MyProject.Api.csproj",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\MyProject.Api.csproj",
+              "RelativeToolTip": "MyProject\\MyProject.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-07T13:50:55.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MyProject\\Properties\\launchSettings.json",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MyProject\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T11:42:31.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MyProject.Service.csproj",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Service\\MyProject.Service.csproj",
+              "RelativeDocumentMoniker": "Service\\MyProject.Service.csproj",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Service\\MyProject.Service.csproj",
+              "RelativeToolTip": "Service\\MyProject.Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-07T12:40:37.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\UserDTO.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "Core\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:55:42.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MyProject\\appsettings.Development.json",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\appsettings.Development.json",
+              "RelativeToolTip": "MyProject\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T08:12:25.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "Core\\Interface\\IUserService.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\Interface\\IUserService.cs",
+              "RelativeToolTip": "Core\\Interface\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:50:05.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250507122953_sample_tring.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Data\\Migrations\\20250507122953_sample_tring.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250507122953_sample_tring.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Data\\Migrations\\20250507122953_sample_tring.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250507122953_sample_tring.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T12:29:53.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MyProject.http",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\MyProject.http",
+              "RelativeDocumentMoniker": "MyProject\\MyProject.http",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\MyProject\\MyProject.http",
+              "RelativeToolTip": "MyProject\\MyProject.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-05T14:08:04.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Data\\DataContext.cs",
+              "RelativeToolTip": "Data\\DataContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:49:10.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MyProject.Core.csproj",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\MyProject.Core.csproj",
+              "RelativeDocumentMoniker": "Core\\MyProject.Core.csproj",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\MyProject.Core.csproj",
+              "RelativeToolTip": "Core\\MyProject.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-28T12:32:32.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MapperProfile.cs",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\DTOs\\MapperProfile.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\MapperProfile.cs",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Core\\DTOs\\MapperProfile.cs",
+              "RelativeToolTip": "Core\\DTOs\\MapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:41:02.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MyProject.Data.csproj",
+              "DocumentMoniker": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Data\\MyProject.Data.csproj",
+              "RelativeDocumentMoniker": "Data\\MyProject.Data.csproj",
+              "ToolTip": "W:\\\u200F\u200F\u05DB\u05EA\u05D5\u05EA \u05D5\\\u05D4\u05EA\u05DE\u05D7\u05D5\u05D9\u05D5\u05EA\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05EA\u05DC\u05DE\u05D9\u05D3\u05D5\u05EA\\\u05D7\u05DE\u05DE\u05D9 \u05E1\u05E4\u05D9\u05E8\\.NET\\MyProject\\Data\\MyProject.Data.csproj",
+              "RelativeToolTip": "Data\\MyProject.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-28T12:54:56.229Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
