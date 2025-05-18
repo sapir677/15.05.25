@@ -31,9 +31,20 @@ namespace MyProject.Api.Controllers
             return Ok(_mapper.Map<List<HourDTO>>(hours));
         }
 
-        // GET api/<HourController>/5
+
+        // GET api/<HourController>/5//לכאורה אין ענין לקבל לפי מזהה עדיף לפי תאריך
         [HttpGet("{id}")]
         public async Task<ActionResult<List<Hour>>> Get(string id)
+        {
+            List<Hour> tmp = await _dataHour.GetByUserId(id);
+            if (tmp != null)
+                return Ok(tmp);
+            return NotFound();
+        }
+
+        // GET api/<HourController>/5//נסיון לעשות לפי תאריך 
+        [HttpGet("{date}")]
+        public async Task<ActionResult<List<Hour>>> Get(DateTime id)
         {
             List<Hour> tmp = await _dataHour.GetByUserId(id);
             if (tmp != null)
