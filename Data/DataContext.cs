@@ -14,7 +14,7 @@ namespace MyProject.Data
 {
     public class DataContext : DbContext
     {
-
+        //יש מצב שהENTITY נמצא בכולם 
         //entity framework
         //אמור להיות רשימת שעות  עובדים \משתמשים מסוג  dbset
         public DbSet<User> Users {  get; set; }
@@ -32,6 +32,7 @@ namespace MyProject.Data
             optionBuilder.UseSqlServer(_configuration["ConnectionStrings:DefaultConnection"]);
         }
 
+    
 
         //(localdb)\MSSQLLocalDB
 

@@ -12,6 +12,8 @@ namespace MyProject.Core.Interface
     {
         Task<List<HourDTO>> GetAsync();
         Task<List<Hour>> GetByUserId(string id);
+        Task<List<Hour>> GetByDate(DateTime date);
+
         Task PostAsync(Hour hour);
         Task<Hour> PutAsync(string id, Hour hour);
         Task<bool> DeleteAsync(string id);

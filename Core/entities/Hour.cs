@@ -12,28 +12,32 @@ namespace MyProject.Core.entities
     }
     public class Hour
     {
-        private static int nextId=100;
-        public int Id { get;}//אמור להתווסף לבד
+        //id עושה בעיות  להפוך לרגיל
+        //private static int nextId=100;
+        //לא עשיתי מחיקה בכאילו
+        public int Id { get; set; }//אמור להתווסף לבד
         public DateTime Start { get; set; }
         public DateTime End { get; set; }
-        public User User { get; set; }//יתכן שמספיק רק userId לדעתי אפשר שיתקבל לפי הלוגין 
+        //public User User { get; set; }//יתכן שמספיק רק userId לדעתי אפשר שיתקבל לפי הלוגין 
+        public string UserId { get; set; }
         public Type type { get; set; }//יוכנס ע"י משתמש או לפי הלוגין
         public Hour()
         {
             
         }
-        public Hour(DateTime start, DateTime end)
+        //public Hour(DateTime start, DateTime end)
+        //{
+        //    Id = nextId++;
+        //    Start = start;
+        //    End = end;
+        //}
+        public Hour(int id,DateTime start, DateTime end, string userId, Type type)
         {
-            Id = nextId++;
+            //Id = nextId++;
+            Id = id;
             Start = start;
             End = end;
-        }
-        public Hour(DateTime start, DateTime end, User user, Type type)
-        {
-            Id = nextId++;
-            Start = start;
-            End = end;
-            User = user;
+            UserId = userId;
             this.type = type;
         }
     }

@@ -44,9 +44,9 @@ namespace MyProject.Api.Controllers
 
         // GET api/<HourController>/5//נסיון לעשות לפי תאריך 
         [HttpGet("{date}")]
-        public async Task<ActionResult<List<Hour>>> Get(DateTime id)
+        public async Task<ActionResult<List<Hour>>> Get(DateTime date)
         {
-            List<Hour> tmp = await _dataHour.GetByUserId(id);
+            List<Hour> tmp = await _dataHour.GetByDate(date);
             if (tmp != null)
                 return Ok(tmp);
             return NotFound();

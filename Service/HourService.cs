@@ -35,13 +35,20 @@ namespace MyProject.Service
             List<Hour> hours = await _dataContext.Hours.ToListAsync();
             if (hours==null)
                 return null;
-            return hours.FindAll(h => h.User.Id == id);
+            return hours.FindAll(h =>h.UserId == id);
         }
-
+        public async Task<List<Hour>> GetByDate(DateTime date)
+        {
+            List<Hour> hours = await _dataContext.Hours.ToListAsync();
+            if (hours == null)
+                return null;
+            return hours.FindAll(h => h.Start.Equals(date));
+        }
         public async Task PostAsync(Hour hour)
         {
             _dataContext.Hours.Add(hour);
             await _dataContext.SaveChangesAsync();
+
         }
         ////נסיון ההוא שמעל היה קודם
         //public async Task PostAsync(DateTime start,DateTime end)
@@ -52,13 +59,13 @@ namespace MyProject.Service
 
         public async Task<Hour> PutAsync(string id, Hour hour)
         {
-            var h = await _dataContext.Hours.LastOrDefaultAsync(h => h.User.Id == id);//התאריך האחרון שהתקבל הוא זה שישלח לשינוי 
+            var h = await _dataContext.Hours.LastOrDefaultAsync(h => h.UserId == id);//התאריך האחרון שהתקבל הוא זה שישלח לשינוי 
             if (h != null)
             {
                 //h.Id=hour.id;
                 h.Start = hour.Start;
                 h.End = hour.End;
-                h.User = h.User;
+                h.UserId = h.UserId;
             }
             return h;
         }

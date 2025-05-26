@@ -17,6 +17,7 @@ namespace MyProject.Core.entities
         public string Email { get; set; }
         public string Password { get; set; }
         public USERTYPE Usertype { get; set; }
+        public bool IsValid { get; set; }//לא מוחקים !!!
         public User() { }
         public User(string id, string name, string email, string password, USERTYPE usertype)
         {
@@ -25,6 +26,7 @@ namespace MyProject.Core.entities
             Email = email;
             Password = password;
             Usertype = usertype;
+            IsValid = true; 
         }
 
         public override string ToString()

@@ -47,7 +47,7 @@ namespace MyProject.Api.Controllers
         }
 
         // POST api/<UserController>
-        [Authorize]
+        [Authorize(Roles ="ADMIN")]
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] User user)
         {

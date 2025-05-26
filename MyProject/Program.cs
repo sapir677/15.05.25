@@ -56,15 +56,16 @@ builder.Services.AddSwaggerGen(setup =>
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IHourService, HourService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddDbContext<DataContext>();
 builder.Services.AddAutoMapper(typeof(MapperProfile));
-
 
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
+
 .AddJwtBearer(options =>
 {
     options.TokenValidationParameters = new TokenValidationParameters
@@ -79,7 +80,10 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]))
     };
 });
-
+builder.Services.AddAuthorization(options =>//הוספתי מהבינה היא רוצה להוסיף גם "berear" אין לי מושג למה 
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("ADMIN"));
+});
 
 //builder.Services.AddOpenApi();
 
@@ -94,9 +98,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseRouting();
+
 
 app.UseMiddleware<LogginMiddleWare>();
 app.MapControllers();
