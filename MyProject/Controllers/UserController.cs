@@ -14,13 +14,13 @@ namespace MyProject.Api.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly IUserService _dataUser;
+        private readonly IUserService _userService;
         private readonly IConfiguration _configuration;
         
         //אפשר לעשות כתיבה ללוג ע"י configuration
         public UserController(IUserService data,IConfiguration configuration)
         {
-            _dataUser = data;
+            _userService = data;
             _configuration= configuration;
         }
 
@@ -28,8 +28,8 @@ namespace MyProject.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<UserDTO>>> Get()
         {
-            //Console.WriteLine(_configuration["ApplicationName"]);
-            var res = await _dataUser.GetAsync();
+           // Console.WriteLine(_configuration["ApplicationName"]);
+            var res = await _userService.GetAsync();
             if (res == null)
                 return NotFound("user not found");
             return Ok(res);
@@ -37,30 +37,35 @@ namespace MyProject.Api.Controllers
         }
 
         // GET api/<UserController>/5
+        [Authorize(Policy = "EmpOnly")]
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> Get(string id)
         {
-            User user = await _dataUser.GetAsync(id);
+            User user = await _userService.GetAsync(id);
             if (user == null)
                 return NotFound("user not found");
             return Ok(user);
         }
 
         // POST api/<UserController>
-        [Authorize(Roles ="ADMIN")]
+        [Authorize(Policy = "AdminOnly")]
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] User user)
+        public async Task<ActionResult<User>> Post([FromBody] User user)
         {
-            await _dataUser.PostAsync(user);
-            return Ok();
+            if (user == null)
+                return BadRequest("can not get a uninitial value");
+            User u= await _userService.PostAsync(user);
+            if (u == null)
+                return Conflict("user already exists id: " + user.Id);
+            return Ok(user);
         }
 
         // PUT api/<UserController>/5
-        [Authorize]
+        [Authorize(Policy= "UserOnly")]//כדי שמשתמש יוכל לעדכן את עצמו כניסה לפי מס זהות
         [HttpPut("{id}")]
         public async Task<ActionResult<User>> Put(string id, [FromBody] User user)
         {
-            var u = await _dataUser.PutAsync(id, user);
+            var u = await _userService.PutAsync(id, user);
             if (u == null)
                 return BadRequest("error");
             return Ok(u);
@@ -68,11 +73,11 @@ namespace MyProject.Api.Controllers
         }
 
         // DELETE api/<UserController>/5
-        [Authorize]
+        [Authorize(Policy = "AdminOnly")]
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(string id)
         {
-           bool tmp= await _dataUser.DeleteAsync(id);
+           bool tmp= await _userService.DeleteAsync(id);
             if(tmp)
                 return Ok();
             return NotFound();

@@ -13,7 +13,7 @@ namespace MyProject.Core.DTOs
         public MapperProfile() 
         { 
             CreateMap<User,UserDTO>().ReverseMap();
-            CreateMap<Hour,UserDTO>().ReverseMap();
+            CreateMap<Hour,HourDTO>().ReverseMap();
         }
     }
 }

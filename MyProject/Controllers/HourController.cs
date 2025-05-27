@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyProject.Core.DTOs;
 using MyProject.Core.entities;
@@ -12,22 +13,20 @@ namespace MyProject.Api.Controllers
     [ApiController]
     public class HourController : ControllerBase
     {
-        private readonly IHourService _dataHour;
+        private readonly IHourService _hourService;
         private readonly IMapper _mapper;
-
-        private readonly IConfiguration _configuration;
  
-        public HourController(IHourService dataHour, IConfiguration configuration)
+        public HourController(IHourService dataHour,IMapper mapper)
         {
-            _dataHour = dataHour;
-            _configuration = configuration;
+            _hourService = dataHour;
+            _mapper = mapper;
 
         }
         // GET: api/<HourController>
         [HttpGet]
         public async Task<ActionResult<List<HourDTO>>> Get()
         {
-            var hours = await _dataHour.GetAsync();
+            var hours = await _hourService.GetAsync();
             return Ok(_mapper.Map<List<HourDTO>>(hours));
         }
 
@@ -36,27 +35,28 @@ namespace MyProject.Api.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<List<Hour>>> Get(string id)
         {
-            List<Hour> tmp = await _dataHour.GetByUserId(id);
+            List<Hour> tmp = await _hourService.GetByUserId(id);
             if (tmp != null)
                 return Ok(tmp);
             return NotFound();
         }
 
         // GET api/<HourController>/5//נסיון לעשות לפי תאריך 
-        [HttpGet("{date}")]
+        [HttpGet("date/{date:datetime}")] // לדוגמה: תאריך בפורמט DateTime
         public async Task<ActionResult<List<Hour>>> Get(DateTime date)
         {
-            List<Hour> tmp = await _dataHour.GetByDate(date);
+            List<Hour> tmp = await _hourService.GetByDate(date);
             if (tmp != null)
                 return Ok(tmp);
             return NotFound();
         }
 
         // POST api/<HourController>
+        [Authorize(Policy = "EmpOnly")]
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] Hour hour)//add
         {
-           await _dataHour.PostAsync(hour);
+           await _hourService.PostAsync(hour);
             return Ok();
         }
 
@@ -68,8 +68,8 @@ namespace MyProject.Api.Controllers
         //        return NotFound("not found");
         //  return Ok(await _dataHour.PutAsync(id, hour));
         //}
-//??
-        //// DELETE api/<HourController>/5
+        //??
+        // DELETE api/<HourController>/5
         //[HttpDelete("{id}")]
         //public async Task<ActionResult> Delete(string id)//אולי עדיף לקבל id מסוים ולמחוק אותו 
         //{

@@ -18,7 +18,6 @@ namespace MyProject.Core.entities
         public int Id { get; set; }//אמור להתווסף לבד
         public DateTime Start { get; set; }
         public DateTime End { get; set; }
-        //public User User { get; set; }//יתכן שמספיק רק userId לדעתי אפשר שיתקבל לפי הלוגין 
         public string UserId { get; set; }
         public Type type { get; set; }//יוכנס ע"י משתמש או לפי הלוגין
         public Hour()

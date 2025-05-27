@@ -43,13 +43,15 @@ namespace MyProject.Service
                     Id = "ADMIN",
                     Name = "Admin",
                     Email = "admin@admin.com",
-                    // Password="123456",//צריך לשים??
+                    Password = "123456",//צריך לשים??
                     Usertype = USERTYPE.ADMIN,
                     IsValid = true
                 };
             }
             else
-                user = await Verify(userName, password);//צריך await?
+            {
+                user = await Verify(userName, password);
+            }
             return user;
         }
         public async Task<User> Verify(string name, string password)
@@ -65,14 +67,6 @@ namespace MyProject.Service
                 new Claim(ClaimTypes.Role, user.Usertype.ToString())
 
             };
-
-
-     //       var claims = new List<Claim>//בינה
-     //{
-     //    new Claim(ClaimTypes.Name, user.Name),
-     //    new Claim(ClaimTypes.Role, user.Usertype.ToString()) // Add role claim
-     //};
-
 
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));

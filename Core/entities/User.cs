@@ -19,13 +19,13 @@ namespace MyProject.Core.entities
         public USERTYPE Usertype { get; set; }
         public bool IsValid { get; set; }//לא מוחקים !!!
         public User() { }
-        public User(string id, string name, string email, string password, USERTYPE usertype)
+        public User(string id, string name, string email, string password)
         {
             Id = id;
             Name = name;
             Email = email;
             Password = password;
-            Usertype = usertype;
+            Usertype = USERTYPE.EMPLOYEE;
             IsValid = true; 
         }
 

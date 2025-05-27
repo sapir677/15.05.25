@@ -80,10 +80,20 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]))
     };
 });
-builder.Services.AddAuthorization(options =>//הוספתי מהבינה היא רוצה להוסיף גם "berear" אין לי מושג למה 
+//builder.Services.AddAuthorization(options =>//הוספתי מהבינה היא רוצה להוסיף גם "berear" אין לי מושג למה 
+//{
+//    options.AddPolicy("AdminOnly", policy => policy.RequireRole("ADMIN"));
+//});
+
+
+builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AdminOnly", policy => policy.RequireRole("ADMIN"));
+    options.AddPolicy("EmpOnly", policy => policy.RequireRole("EMPLOYEE"));
+    options.AddPolicy("UserOnly", policy => policy.RequireRole("EMPLOYEE","ADMIN"));
+
 });
+
 
 //builder.Services.AddOpenApi();
 

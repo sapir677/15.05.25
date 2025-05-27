@@ -12,7 +12,7 @@ namespace MyProject.Core.Interface
     {
         Task<List<UserDTO>> GetAsync();
         Task<User> GetAsync(string id);
-        Task PostAsync(User user);
+        Task<User> PostAsync(User user);
         Task<User> PutAsync(string id, User user);
         Task<bool> DeleteAsync(string id);
     }

@@ -18,9 +18,10 @@ namespace MyProject.Service
 
         private readonly DataContext _dataContext;
         private readonly IMapper _mapper;
-        public HourService(DataContext dataContext)
+        public HourService(DataContext dataContext,IMapper mapper)
         {
             _dataContext = dataContext;
+            _mapper = mapper;
         }
         public async Task<List<HourDTO>> GetAsync()
         {
@@ -75,7 +76,7 @@ namespace MyProject.Service
             List<Hour> hour =await GetByUserId(id);
             if (hour== null)
                 return false;
-            _dataContext.Hours.Remove(hour.Last());//אין ככ הגיון
+            _dataContext.Hours.Remove(hour.Last());//אין ככ הגיון אולי לפי תאריך
             await _dataContext.SaveChangesAsync();
             return true;
         }

@@ -46,12 +46,12 @@ namespace MyProject.Api.Controllers
             return Ok(_authService.GenerateToken(u));
         }
 
-        [Authorize]
-        [HttpGet("RefreshToken")]
-        public IActionResult RefreshToken(User user)//לדעתי מיותר כקונטרולר
-        {
-            var token = _authService.GenerateToken(user);
-            return Ok(token);
-        }
+        //[Authorize]
+        //[HttpGet("RefreshToken")]
+        //public IActionResult RefreshToken(User user)//לדעתי מיותר כקונטרולר
+        //{
+        //    var token = _authService.GenerateToken(user);
+        //    return Ok(token);
+        //}
     }
 }
